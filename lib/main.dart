@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_demogit/home_trips.dart';
+import 'home_trips.dart';
 import 'uao_trips.dart';
+import 'Collapsin.dart';
 
 
 void main() {
@@ -12,6 +13,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  UaoTrips();
+    return UaoTrips();
+      //Collapsing();
+      //
   }
 }
